@@ -1,8 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import "tailwindcss";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Quicksand", sans-serif;
+}
+
+header{
+  background: #fcf3f4;
+  border-bottom: 1px solid #d7b8c5;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10000000;
 }
 
 body {
@@ -12,7 +24,18 @@ body {
 .logo-container {
   display: flex;
   align-items: center;
-  gap: 10px;
+  margin-left: 3rem;
+}
+
+#Logo{
+  display: flex;
+  justify-content: space-between;
+}
+
+.others{
+  display: flex;
+  gap: 2em;
+  align-items: center;
 }
 
 .logo-text {
@@ -30,10 +53,6 @@ body {
   object-fit: contain;
 }
 
-.logo-container h2 {
-  color: #d95b8b;
-  font-size: 1.8rem;
-}
 .app {
   min-height: 100vh;
 }
@@ -88,7 +107,7 @@ body {
   justify-content: space-between;
 
   gap: 50px;
-  padding: 80px 8%;
+  padding: 40px 8%;
 }
 
 .hero-text {
@@ -133,6 +152,7 @@ body {
 .hero-image img {
   width: 100%;
   border-radius: 25px;
+  
 }
 
 /* SECTIONS */

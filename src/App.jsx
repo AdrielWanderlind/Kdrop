@@ -5,39 +5,41 @@ function App() {
   return (
     <div className="app">
       {/* Navbar */}
-      <header className="navbar">
-      <div className="logo-container">
-        <img src={logo} alt="KDrop Hub" className="logo-img" />
-        <span className="logo-text">KDrop<span>Hub</span></span>
-      </div>
-      
-        <nav>
-          <a href="#beneficios">Benefícios</a>
-          <a href="#pilares">Recursos</a>
-          <a href="#sobre">Sobre</a>
-        </nav>
+      <header className="bg-white bg-opacity-100 w-full z-50 ">
+        <nav id="Logo" className="mx-auto flex max-w-7xl items-center p-6 lg:px-8">
+          <div className="logo-container">
+            <img src={logo} alt="KDrop Hub" className="logo-img" />
+            <span className="logo-text">KDrop<span>Hub</span></span>
+          </div>
 
-        <button className="btn-primary">
-          Entrar na comunidade
-        </button>
+          <div className="others">
+            <a href="#beneficios">Benefícios</a>
+            <a href="#pilares">Recursos</a>
+            <a href="#sobre">Sobre</a>
+            <button className="btn-primary">
+              Entrar na comunidade
+            </button>
+          </div>
+        </nav>
       </header>
 
       {/* Hero */}
       <section className="hero">
         <div className="hero-text">
-          <span className="tag">
-            PLATAFORMA #1 PARA FÃS DE K-POP
-          </span>
+          <div class="relative rounded-full px-3 py-1 text-sm/6 text-black-400 ring-1 ring-white/10 hover:ring-white/20">
+            <span className="tag">
+              PLATAFORMA #1 PARA FÃS DE K-POP
+            </span>
+          </div>
+
 
           <h1>
-            Descomplicando o seu
-            <span> mundo K-pop</span>
+            Nunca mais perca o <span>momento</span>
+            que define seu <span>fandom</span>.
           </h1>
 
           <p>
-            Calendário inteligente, marketplace verificado,
-            compras coletivas, rastreamento de pedidos e alertas
-            personalizados em um único lugar.
+            Do primeiro teaser ao photocard nas suas mãos — KDrop Hub é onde fãs vivem cada comeback como se estivessem na primeira fila.
           </p>
 
           <div className="buttons">
@@ -45,23 +47,25 @@ function App() {
               Começar agora
             </button>
 
-          <a href="https://kdrop-hub-connect.lovable.app" target="_blank">
-            <button className="btn-secondary">
-              Ver demonstração
-            </button>
-          </a>
+            <a href="https://kdrop-hub-connect.lovable.app" target="_blank">
+              <button className="btn-secondary">
+                Ver demonstração
+              </button>
+            </a>
           </div>
         </div>
 
         <div className="hero-image">
-          <img
-            src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?q=80&w=1200&auto=format&fit=crop"
+          <img 
+            src="https://m.media-amazon.com/images/M/MV5BYzU5NjA3Y2YtY2UwZi00ZDMwLWE5NjAtOTljNTA4NTI4ZjYyXkEyXkFqcGc@._V1_.jpg"
             alt="Kpop"
           />
         </div>
       </section>
 
       {/* Benefícios */}
+
+      
       <section id="beneficios" className="section">
         <h2>Por que usar o KDrop Hub?</h2>
 
