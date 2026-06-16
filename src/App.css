@@ -17,8 +17,13 @@ header{
   z-index: 10000000;
 }
 
+#header{
+  display: flex;
+  justify-content: space-between;
+}
+
 body {
-  background: #f7edf0;
+  background: #fbedf0;
 }
 
 .logo-container {
@@ -105,7 +110,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-
   gap: 50px;
   padding: 40px 8%;
 }
@@ -151,8 +155,85 @@ body {
 
 .hero-image img {
   width: 100%;
+
   border-radius: 25px;
   
+}
+
+/*CAROUSEL */
+
+#beneficios{
+  padding: 100px 0 0 0 ;
+}
+
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 0 0 40px;
+}
+
+.card {
+  width: 80em;
+  height: 390px;
+  background: #F7A7C7;
+  border-radius: 16px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.imagem-container {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.imagem-container img {
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.texto-container {
+  color: #ffff;
+  width: 60%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.texto-container h2 {
+  font-size: 3.6rem;
+  margin-bottom: 16px;
+}
+
+.texto-container p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ffff;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background: #1e293b;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
 }
 
 /* SECTIONS */
@@ -163,6 +244,7 @@ body {
 
 .section h2 {
   text-align: center;
+  font-size: 2rem;
   margin-bottom: 40px;
   color: #351927;
 }
@@ -173,12 +255,7 @@ body {
   gap: 20px;
 }
 
-.card {
-  background: white;
-  padding: 25px;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-}
+
 
 .card h3 {
   margin-bottom: 10px;
