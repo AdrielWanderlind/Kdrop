@@ -16,10 +16,6 @@ function Navbar() {
           <a href="#beneficios">Benefícios</a>
           <a href="#pilares">Ícones</a>
           <a href="#sobre">Sobre</a>
-
-          <button className="btn-primary">
-            Entrar na comunidade
-          </button>
         </div>
       </nav>
     </header>

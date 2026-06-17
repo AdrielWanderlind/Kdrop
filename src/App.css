@@ -68,7 +68,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 20px 8%;
   background: white;
 }
@@ -87,6 +86,9 @@ body {
   color: #555;
 }
 
+.others{
+  font-size: 1.4rem;
+}
 .btn-primary {
   background: #e56b95;
   color: white;
