@@ -1,11 +1,13 @@
+// Hook do React
 import { useState } from "react";
-
+// Imagens
 import Calendario from "../assets/Calendario.jpg"
 import GroupOrder from "../assets/GroupOrder.jpg"
 import Marketplace from "../assets/Marketplace.jpg"
 
 function Benefits() {
-
+  
+// Dados dos cards
   const slides = [
 
     {
@@ -27,7 +29,8 @@ function Benefits() {
         "Divida fretes internacionais com outros fãs e economize."
     }
   ];
-
+  
+  // Estado atual
   const [slideAtual, setSlideAtual] = useState(0);
 
   const proximoSlide = () => {
@@ -46,11 +49,13 @@ function Benefits() {
         <h2>Por que usar o KDrop Hub?</h2>
       </section>
       
+      {/* Carrossel */}
       <div className="carousel-container">
         <button className="btn" onClick={slideAnterior}>
           ❮
         </button>
-
+    
+        {/* Conteúdo */}
         <div className="card-benefits">
           <div className="imagem-container ">
             <img
