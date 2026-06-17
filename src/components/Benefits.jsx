@@ -51,8 +51,8 @@ function Benefits() {
           ❮
         </button>
 
-        <div className="card">
-          <div className="imagem-container">
+        <div className="card-benefits">
+          <div className="imagem-container ">
             <img
               src={slides[slideAtual].imagem}
               alt={slides[slideAtual].titulo}

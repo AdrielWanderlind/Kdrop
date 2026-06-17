@@ -14,7 +14,7 @@ function Navbar() {
 
         <div className="others">
           <a href="#beneficios">Benefícios</a>
-          <a href="#pilares">Recursos</a>
+          <a href="#pilares">Ícones</a>
           <a href="#sobre">Sobre</a>
 
           <button className="btn-primary">

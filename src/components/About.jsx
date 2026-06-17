@@ -8,8 +8,7 @@ function About() {
         ecossistema tudo que um fã de K-pop precisa:
         eventos, produtos, compras coletivas,
         notificações e rastreamento.
-        Desenvolvido com React, TypeScript,
-        Tailwind CSS e backend em tempo real.
+        Desenvolvido com React e Tailwind CSS
       </p>
     </section>
   );

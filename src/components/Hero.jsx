@@ -9,7 +9,7 @@ function Hero() {
         </div>
 
         <h1>
-          Nunca mais perca o <span>momento</span>
+          Nunca mais perca o <span>momento </span>
           que define seu <span>fandom</span>.
         </h1>
 
