@@ -1,3 +1,4 @@
+{/* Imagens */}
 import BTS from "../assets/BTS.jpg"
 import BLACKPINK from "../assets/BLACKPINK.jpg"
 import NEWJEANS from "../assets/NEWJEANS.jpg"
@@ -11,7 +12,7 @@ function Features() {
       <h2>
         Os <span>ícones</span> que <span>movem</span> o mundo.
       </h2>
-
+      {/* Cards estáticos */}
       <div className="cards">
 
          {/* Card 1 */}
