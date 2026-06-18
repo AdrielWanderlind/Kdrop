@@ -34,3 +34,14 @@ As decisões de interface foram tomadas para refletir a estética enérgica do n
 - Estrutura de Componentes e Navegação: O cabeçalho contendo o logotipo e os links de navegação (Benefícios, Recursos, Sobre) possui a propriedade "sticky" com alto índice de profundidade (z-index), o que o mantém fixo no topo da tela enquanto o usuário rola a página. Interatividade visual inclui elementos como o carrossel de benefícios que foram desenhados com botões redondos flutuantes, efeitos de sombra (box-shadow) e transições suaves de redimensionamento (transform: scale) ao passar o mouse.
 - Design Responsivo: A aplicação é totalmente adaptável. Em telas com largura inferior a 900px (dispositivos móveis e tablets), a seção de introdução (Hero) altera sua disposição para o modo de colunas empilhadas (flex-direction: column) e os links tradicionais da barra de navegação são ocultados em prol de uma melhor organização do espaço.
 
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+# Tutorial para publicar o projeto no GitHub Pages
+
+##1. Instale o pacote gh-pages
+No terminal, dentro da pasta do projeto: 
+
+> npm install gh-pages --save-dev
+
+##2. Configure o vite.config.js
+Adicione a propriedade base.
