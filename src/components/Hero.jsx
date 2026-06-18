@@ -1,6 +1,5 @@
 function Hero() {
   return (
-    // Primeira seção
     <section className="hero">
       <div className="hero-text">
         <div className="relative rounded-full px-3 py-1 text-sm/6 text-black-400 ring-1 ring-white/10 hover:ring-white/20">
@@ -9,20 +8,17 @@ function Hero() {
           </span>
         </div>
         
-        {/* Título */}
         <h1>
           Nunca mais perca o <span>momento </span>
           que define seu <span>fandom</span>.
         </h1>
         
-        {/* Descrição */}
         <p>
           Do primeiro teaser ao photocard nas suas mãos —
           KDrop Hub é onde fãs vivem cada comeback como se
           estivessem na primeira fila.
         </p>
         
-        {/* Botões */}
         <div className="buttons">
           <a href="https://kdrop-hub-connect.lovable.app"
             target="_blank"
