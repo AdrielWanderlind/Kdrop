@@ -1,3 +1,4 @@
+{/* Imagens */ }
 import BTS from "../assets/BTS.jpg"
 import BLACKPINK from "../assets/BLACKPINK.jpg"
 import NEWJEANS from "../assets/NEWJEANS.jpg"
@@ -11,10 +12,10 @@ function Groups() {
       <h2>
         Os <span>ícones</span> que <span>movem</span> o mundo.
       </h2>
-
+      {/* Cards estáticos */}
       <div className="cards">
 
-         {/* Card 1 */}
+        {/* Card 1 */}
         <div className="card">
           <img src={BTS} alt="BTS" className="card-img" />
 
@@ -77,7 +78,7 @@ function Groups() {
           </div>
         </div>
 
-         {/*Card 4*/}
+        {/*Card 4*/}
         <div className="card">
           <img src={EXO} alt="EXO" className="card-img" />
 
@@ -98,7 +99,7 @@ function Groups() {
           </div>
         </div>
 
-         {/*Card 5*/}
+        {/*Card 5*/}
         <div className="card">
           <img src={TWICE} alt="TWICE" className="card-img" />
 
@@ -119,7 +120,7 @@ function Groups() {
           </div>
         </div>
 
-         {/*Card 6*/}
+        {/*Card 6*/}
         <div className="card">
           <img src={STRAYKIDS} alt="STRAYKIDS" className="card-img" />
 
@@ -145,4 +146,6 @@ function Groups() {
   );
 }
 
+
 export default Groups;
+export default Features;
