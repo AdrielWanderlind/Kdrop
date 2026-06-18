@@ -4,7 +4,7 @@ import logo from "./assets/logo.png";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Benefits from "./components/Benefits";
-import Features from "./components/Features";
+import Groups from "./components/Groups";
 import About from "./components/About";
 import Footer from "./components/Footer";
 
@@ -15,7 +15,7 @@ function App() {
       <Navbar />
       <Hero />
       <Benefits/>
-      <Features />
+      <Groups />
       <About />
       <Footer />
     </div>

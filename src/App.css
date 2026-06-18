@@ -8,6 +8,8 @@
   font-family: "Quicksand", sans-serif;
 }
 
+/* NAVBAR */
+
 header{
   background: #fcf3f4;
   border-bottom: 1px solid #d7b8c5;
@@ -61,8 +63,6 @@ body {
 .app {
   min-height: 100vh;
 }
-
-/* NAVBAR */
 
 .navbar {
   display: flex;
@@ -278,7 +278,7 @@ footer {
   color: #666;
 }
 
-/* FEATURES */
+/* Groups */
 
 .section span{
   color: #e56b95;
@@ -375,6 +375,11 @@ footer {
     height: 2px;
     background: #f06292;
     margin-top: 20px;
+}
+
+/* ABOUT */
+.about{
+  font-size: 1.5rem;
 }
 
 /* RESPONSIVO */

@@ -20,16 +20,10 @@ function Hero() {
         </p>
 
         <div className="buttons">
-          <button className="btn-primary">
-            Começar agora
-          </button>
-
-          <a
-            href="https://kdrop-hub-connect.lovable.app"
+          <a href="https://kdrop-hub-connect.lovable.app"
             target="_blank"
-            rel="noreferrer"
-          >
-            <button className="btn-secondary">
+            rel="noreferrer">
+            <button className="btn-primary">
               Ver demonstração
             </button>
           </a>

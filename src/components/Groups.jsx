@@ -5,7 +5,7 @@ import EXO from "../assets/EXO.png"
 import TWICE from "../assets/TWICE.jpg"
 import STRAYKIDS from "../assets/STRAYKIDS.jpg"
 
-function Features() {
+function Groups() {
   return (
     <section id="pilares" className="section">
       <h2>
@@ -145,4 +145,4 @@ function Features() {
   );
 }
 
-export default Features;
+export default Groups;
